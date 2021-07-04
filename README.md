@@ -17,7 +17,7 @@ npm install express mysql dotenv ;
 npm install --save-dev nodemon
 ```
 
-Setup application to run with nodemon add the “start” line under scripts in your package.json file.
+Setup the application to run with nodemon by adding the “start” line under scripts in `package.json` file.
 
 ```json
 "scripts": {
