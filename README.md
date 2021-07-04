@@ -1,6 +1,6 @@
 # Beer API
 
-Basis beer catalog API for CRUB tasks: 
+Basic beer catalog API for the following CRUB tasks. 
 
 - Displaying records
 - Displaying records by ID
