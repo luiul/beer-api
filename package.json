@@ -1,0 +1,29 @@
+{
+  "name": "beer-api",
+  "version": "1.0.0",
+  "description": "Basis beer catalog API for CRUB tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiul/beer-catalog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiul/beer-catalog/issues"
+  },
+  "homepage": "https://github.com/luiul/beer-catalog#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
