@@ -1,23 +1,26 @@
 # Beer API
 
-Basic beer catalog API for the following CRUB tasks.
+Basic beer database API for the following CRUD tasks:
 
 - Displaying records
 - Displaying records by ID
-- Adding records
-- Deleting records
+- Adding records (ID generated automatically)
+- Deleting records (by ID)
 - Updating records
 
-We use Node.js, Express, and a MySQL database (XAMPP and phpMyAdmin).
+We use node.js, express, and a MySQL database (XAMPP and phpMyAdmin).
 
-Install packages:
+**Required**: install the following packages. 
 
 ```shell
-npm install express mysql dotenv ; 
-npm install --save-dev nodemon
+npm install express mysql dotenv
 ```
 
-Setup the application to run with nodemon by adding the “start” line under scripts in `package.json` file.
+**Optional**: install nodemon to automatically restart the node application when file changes in the directory are detected. 
+```shell
+npm install --save-dev nodemon
+```
+Set up the application to run with nodemon by adding the "start" script under scripts in the `package.json` file.
 
 ```json
 "scripts": {
